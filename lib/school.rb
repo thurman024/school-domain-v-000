@@ -22,6 +22,7 @@ class School
   def sort
     self.roster.each do |grade|
       self.roster[grade].sort
+    end
   end
 
 end
