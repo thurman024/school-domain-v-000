@@ -6,5 +6,8 @@ class School
 
   attr_accessor :roster
 
+  def add_student
 
+  end
+  
 end
