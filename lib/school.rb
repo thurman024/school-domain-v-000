@@ -15,4 +15,8 @@ class School
     end
   end
 
+  def grade(grade)
+    grade_list = self.roster[grade]
+  end
+
 end
