@@ -3,4 +3,7 @@ class School
     @name = name
   end
 
-  attr
+  attr_accessor :roster
+
+
+end
