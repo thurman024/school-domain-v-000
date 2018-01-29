@@ -7,8 +7,11 @@ class School
   attr_accessor :roster
 
   def add_student(student, grade)
-    self.roster[grade] = []
-    self.roster[grade] << student
+    if self.roster.keys.includes?(grade)
+      self.roster[grade] << student
+    else
+      self.roster[grade] = []
+      self.roster[grade] << student
   end
 
 end
